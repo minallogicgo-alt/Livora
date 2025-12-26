@@ -3,14 +3,13 @@
 @import "remixicon/fonts/remixicon.css";
 :root{
     --prim:#B79F4F;
-    --prim:#ffc400;
+    --prim-dark:#ffc400;
     --text-color:#1D1913;
     --text-light:#c4beb8;
     --body:#191817;
     --white:#fff;
     --black:#000;
-    
-    --transition-regular:.3s;
+   --transition-regular:.3s;
     --transition-slow:.6s;
 
 }
