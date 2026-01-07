@@ -33,7 +33,7 @@ export default function Navbar (){
             <div className={`w-full flex items-center justify-between transition-all duration-500 ${isFixed ?"px-[8%] lg:px-[16%]":"px-[8%] lg:px-[16%]" }`}>
                 {/* Desktop Logo */}
                <Link href="/" 
-               className={`text-4xl lg:text-5xl font-bold Audiowide text-white` } >
+               className={`text-4xl lg:text-5xl  font-black z Audiowide text-white` } >
                 Liv <span className="text-(--prim-dark)">ora
                 </span>
                </Link>

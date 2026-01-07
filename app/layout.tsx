@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${audiowide.variable} antialiased`}
+        className={`${dmSans.variable} ${audiowide.variable} ${rethink.variable} antialiased`}
       >
         <Navbar/>
         <Hero/>
