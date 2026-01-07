@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Audiowide,DM_Sans, Rethink_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Pages/Hero/page";
 
 const rethink=Rethink_Sans({
   variable:"--font-rethink",
@@ -38,6 +39,7 @@ export default function RootLayout({
         className={`${dmSans.variable} ${audiowide.variable} antialiased`}
       >
         <Navbar/>
+        <Hero/>
         {children}
       </body>
     </html>

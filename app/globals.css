@@ -33,3 +33,39 @@ body{
     color:var(--white);
     overflow-x:hidden !important;
 }
+/* 
+ */
+ .hero-header{
+    width:100%;
+    height:100vh;
+    background-image:url(../public/Hero-bg.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+}
+/* Marquee Text Stroke */
+
+.marquee-text{
+    -webkit-text-stroke:2px black;
+    color:transparent;
+}
+
+@keyframes marquee-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee_text {
+    width: max-content;
+    animation: marquee-scroll 20s linear infinite;
+}
+
+.marquee_text:hover {
+    animation-play-state: paused;
+}
